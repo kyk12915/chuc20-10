@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chúc Mừng Ngày 20/10 Hội Giả Vờ Học 🎀</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+body {
+  margin: 0;
+  background: #ffd6e7;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  overflow-x: hidden;
+  text-align: center;
+}
+h1 {
+  color: #ff5ca2;
+  margin-top: 20px;
+  text-shadow: 2px 2px #fff;
+  font-weight: 600;
+}
+.character {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.character:hover { transform: scale(1.1); }
+.character img {
+  width: 100px; height: 100px;
+  border-radius: 20px;
+  border: 2px solid white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.name {
+  color: #b4004e;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.gift {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  cursor: pointer;
+  display: none;
+}
+.card {
+  display: none;
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffeaf4;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  padding: 20px;
+  width: 300px;
+  animation: pop 0.5s ease;
+}
+@keyframes pop {
+  0% { transform: scale(0) translate(-50%, -50%); }
+  100% { transform: scale(1) translate(-50%, -50%); }
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.close {
+  margin-top: 10px;
+  background: #ff7ab8;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Responsive cho điện thoại */
+@media (max-width: 600px) {
+  .character img {
+    width: 80px;
+    height: 80px;
+  }
+  .card {
+    width: 90%;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .name {
+    font-size: 14px;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>🎉 Chúc Mừng Ngày 20/10 Hội Giả Vờ Học 🎉</h1>
+
+<!-- Nhân vật -->
+<div class="character" data-name="Nhi Đậu"
+ data-chibi="https://thuthuatnhanh.com/wp-content/uploads/2022/03/anh-anime-chibi-sieu-cute.jpg"
+ data-real="https://i.ibb.co/wFyWwkWq/IMG-4919.png"
+ data-msg="Ôi đứa con của trời đất... keep it up ! 💕">
+  <img src="https://thuthuatnhanh.com/wp-content/uploads/2022/03/anh-anime-chibi-sieu-cute.jpg">
+  <div class="name">Nhi Đậu</div>
+</div>
+
+<div class="character" data-name="Linh"
+ data-chibi="https://thuthuatnhanh.com/wp-content/uploads/2022/03/anh-anime-chibi-cute-de-thuong.jpg"
+ data-real="https://i.ibb.co/2pp0VHL/IMG-4920.jpg"
+ data-msg="Có lẽ đến giờ chắc m cũng kh biết ngại là gì rồi... you got this ! 💖">
+  <img src="https://thuthuatnhanh.com/wp-content/uploads/2022/03/anh-anime-chibi-cute-de-thuong.jpg">
+  <div class="name">Linh</div>
+</div>
+
+<div class="character" data-name="Dương"
+ data-chibi="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/hinh-anh-anime-chibi-cute.jpg"
+ data-real="https://i.ibb.co/7djgpjdt/IMG-4921.jpg"
+ data-msg="Chào Leader của chúng ta... believe in yourself 💪">
+  <img src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/hinh-anh-anime-chibi-cute.jpg">
+  <div class="name">Dương</div>
+</div>
+
+<div class="character" data-name="My My"
+ data-chibi="https://i.pinimg.com/originals/02/43/79/024379c49de6a37bb30b3e9119f3b77c.jpg"
+ data-real="https://i.ibb.co/gMrqkPkM/att-P7-EGHf-E-y-Syf-G-z-L3-8ug-Tt-VA0-T2tl3-IQSx-Jym-Yw.jpg"
+ data-msg="Ok em my my... go for it 🌼">
+  <img src="https://i.pinimg.com/originals/02/43/79/024379c49de6a37bb30b3e9119f3b77c.jpg">
+  <div class="name">My My</div>
+</div>
+
+<div class="character" data-name="Trinh"
+ data-chibi="https://thuthuatnhanh.com/wp-content/uploads/2022/03/anh-anime-chibi-cute-nu.jpg"
+ data-real="https://i.ibb.co/4RHr53Hj/att-Uv-Oy-Mel6-Pw-Vm-X3kb-IJn-GNr-Fe-BVe-Do-QSJa-OAXr-Z1k.jpg"
+ data-msg="Gửi Trinh... Be brave ! 💗">
+  <img src="https://thuthuatnhanh.com/wp-content/uploads/2022/03/anh-anime-chibi-cute-nu.jpg">
+  <div class="name">Trinh</div>
+</div>
+
+<div class="character" data-name="Nga"
+ data-chibi="https://img.thuthuattinhoc.vn/uploads/2019/01/25/hinh-anh-chibi-de-thuong-nhat_120352772.jpg"
+ data-real="https://i.ibb.co/Y7J5LqT3/IMG-4916.png"
+ data-msg="OK cô gái xử nữ bị lừa dễ dàng nhất mà tôi biết... đừng bỏ cuộc nhé 😆💞">
+  <img src="https://img.thuthuattinhoc.vn/uploads/2019/01/25/hinh-anh-chibi-de-thuong-nhat_120352772.jpg">
+  <div class="name">Nga</div>
+</div>
+
+<img class="gift" src="https://cdn-icons-png.flaticon.com/512/616/616408.png" id="gift">
+
+<div class="card" id="card">
+  <h2 id="cardName"></h2>
+  <p id="cardMsg"></p>
+  <img id="cardImg" src="">
+  <button class="close" onclick="closeCard()">Đóng 💖</button>
+</div>
+
+<script>
+const characters = document.querySelectorAll('.character');
+const gift = document.getElementById('gift');
+const card = document.getElementById('card');
+const cardName = document.getElementById('cardName');
+const cardMsg = document.getElementById('cardMsg');
+const cardImg = document.getElementById('cardImg');
+
+let selectedData = null;
+
+characters.forEach(char => {
+  char.addEventListener('click', () => {
+    selectedData = {
+      name: char.dataset.name,
+      msg: char.dataset.msg,
+      real: char.dataset.real
+    };
+    gift.style.display = 'block';
+  });
+});
+
+gift.addEventListener('click', () => {
+  if (!selectedData) return;
+  cardName.textContent = selectedData.name;
+  cardMsg.textContent = selectedData.msg;
+  cardImg.src = selectedData.real;
+  card.style.display = 'block';
+});
+
+function closeCard() {
+  card.style.display = 'none';
+}
+</script>
+</body>
+</html>
